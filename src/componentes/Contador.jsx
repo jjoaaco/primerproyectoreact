@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import './App.css'
-import Boton from './componentes/Contador'
+import '../App.css'
+import Boton from './Boton'
 
 export default class Contador extends Component{
   constructor(props){
