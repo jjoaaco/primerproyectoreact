@@ -1,4 +1,5 @@
 import { Component } from "react";
+
 export default class Boton extends Component {
 constructor (props) {
     super (props)
@@ -6,9 +7,11 @@ constructor (props) {
 
 render (){
     return (
-        <span className="Boton" onClick={()=> this.props.accion()}>
+        <span className='Boton' 
+        onClick={()=> this.props.accion()}
+        >
 
-             {this.props.simbolo}
+        {this.props.simbolo}
         </span>
     )
 }
