@@ -7,7 +7,7 @@ export default class Contador extends Component{
   this.state = ( valor=0)
 }
 restar(){
-  this.setState ({valor: this.state.valor -1})
+  this.setState ({valor: this.state.valor-1})
 }
 sumar(){
   this.setState ({valor: this.state.valor+1})
@@ -28,7 +28,7 @@ render (){
       <Boton simbolo= '+' accion={()=> this.sumar()}/>
       <Boton simbolo= 'Divid2' accion={()=> this.dividir()}/>
       <Boton simbolo= 'Multi2' accion={()=> this.multiplicar()}/>
-      <Boton simbolo= 'elim' accion={()=> this.props.eliminar()}/>
+      <Boton simbolo= 'x' accion={()=> this.props.eliminar()}/>
     </div>
     </div>
     )
